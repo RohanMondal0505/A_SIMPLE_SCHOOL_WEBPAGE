@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+table {
+    width: 90%;
+    height: 1200px;
+    margin: 0px auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 16px black, -0px -0px 16px black;
+}
+
+th {
+    background-color: #1D72ff;
+    height: 60px;
+    font-family: sans-serif;
+}
+
+td {
+    background-color: #efefef;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-family: calibri;
+    color: #323232;
+    font-size: 18px;
+}
+#pdf-img{
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+fieldset {
+    width: 1200px;
+    height: 1050px;
+    border: none;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+legend {
+    font-family: century gothic;
+    color: #323232;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+p {
+    color: #999;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 30px;
+}
+
+#add-banner {
+    width: 1200px;
+    height: 200px;
+    border-left: 20px groove red;
+    border-right: 20px groove red;
+    box-shadow: 0 0 16px gray;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+marquee {
+    font-size: 200px;
+}
+
+#add-banner:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+}

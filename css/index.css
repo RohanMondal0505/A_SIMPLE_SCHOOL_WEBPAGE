@@ -1,0 +1,506 @@
+@charset "utf-8";
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb();
+}
+
+/*------ Header Coding ------*/
+
+header {
+    width: 100%;
+    height: 350px;
+    float: left;
+    background-image: url(../images/kidsbg.jpg);
+}
+
+#opacity_box {
+    width: 100%;
+    height: 350px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#add {
+    color: white;
+    float: left;
+    font-family: Verdana;
+    font-weight: 600;
+
+}
+
+#cont {
+    color: white;
+    float: right;
+    font-family: Verdana;
+    font-weight: 600;
+}
+
+#logo-box {
+    width: 150px;
+    height: 150px;
+    float: left;
+    clear: both;
+    margin-top: 250px;
+    margin-left: 10px;
+}
+
+#domain {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    width: 140px;
+    height: 125px;
+    margin-left: 5px;
+    box-shadow: 1px 8px 16px 5px black;
+}
+
+#brand-box {
+    width: 1317px;
+    height: 150px;
+    float: left;
+    margin-top: 170px;
+}
+
+#brand-name {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Bowlby One SC', cursive;
+    text-align: center;
+    font-size: 70px;
+}
+
+#tag-line {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: -5px;
+    font-variant: small-caps;
+
+}
+
+#socal-box {
+    width: 400px;
+    height: 75px;
+    float: right;
+    margin-top: 245px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+#social-icon {
+    width: 59px;
+    height: 59px;
+    margin-top: -5px;
+    border: 5px solid white;
+    border-radius: 50%;
+
+}
+
+.snap:hover {
+    transform: scale(1.1);
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+nav {
+    width: 1050px;
+    height: 75px;
+    float: right;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+
+/*ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-menu{
+    display: inline-block;
+    padding: 12px;
+    width: 160px;
+    height: 40px;
+    border: 1px solid black;
+    border-left: 8px groove red;
+    border-right: 8px groove red;
+    box-shadow: 0 8px 16px 0px rgba(0,0,0,0.2);
+    text-aline: center;
+    font-famaly: calibri;
+    color:#323232
+    font-size: 20px;
+}*/
+
+button#btn {
+    margin-left: 10px;
+    padding: 0px;
+    width: 180px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 0 100px 0 100px;
+    color: rgb(7, 6, 6);
+    font-size: 20px;
+    font-weight: 900;
+    font-family: verdana;
+    background-color: rgb(245, 74, 74);
+    box-shadow: 10px 10px 16px 3px rgba(0, 0, 0, 0.5);
+}
+
+#btn:hover {
+    transform: scale(1.2);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+button#btn:focus {
+    outline: none;
+}
+
+a {
+    color: rgb(7, 6, 6);
+    text-decoration: none;
+    cursor: pointer;
+    margin: 15px 0;
+
+}
+
+/*------ section Coding ------*/
+
+section {
+    width: 100%;
+    height: 1400px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+#about-school {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 60px;
+}
+
+#about-school-cot {
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    text-align: justify;
+    text-align-last: center;
+    font-family: Cambria;
+    font-size: 17px;
+    text-indent: 35px;
+    line-height: 22px;
+    color: #323232;
+}
+
+#red-section {
+    width: 100%;
+    height: 630px;
+    box-sizing: border-box;
+    background-color: rgb(230, 56, 56);
+    padding: 30px;
+}
+
+#slide-show {
+    width: 700px;
+    height: 400px;
+    float: left;
+    border: 5px solid white;
+    background-image: url(../images/droom.jpg);
+    background-size: 700px 400px;
+    box-shadow: 10px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+#notice-box {
+    float: right;
+    width: 450px;
+    height: 410px;
+    padding: 10px;
+    border: 5px solid white;
+    box-sizing: border-box;
+    box-shadow: 10px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+#message-box {
+    width: 100%;
+    height: 100px;
+    float: left;
+    border: 1px solid white;
+}
+
+#sir-box {
+    float: left;
+    height: 100px;
+    width: 110px;
+    background-image: url(../images/sir.jpg);
+    background-size: 110px 110px;
+}
+
+#sir-name-box {
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 70px;
+}
+
+h4 {
+    padding: 0;
+    margin: 0;
+    color: seashell;
+    text-align: center;
+}
+
+h5 {
+    padding: 0;
+    margin: 0;
+    color: seashell;
+    text-align: center;
+    line-height: 8px;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+    font-family: century gothic;
+    text-align: center;
+}
+
+#msg {
+    padding: 0;
+    margin: 0;
+    color: snow;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+
+#notice {
+    width: 100%;
+    height: 270px;
+    float: left;
+    border: 1px solid white;
+    margin-top: 8px;
+}
+
+#not-text {
+    padding: 8px;
+    color: snow;
+    font-family: calibri;
+    font-size: 18px;
+}
+
+#succes {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0;
+}
+
+#succes-box {
+    width: 100%;
+    height: 640px;
+    float: left;
+    clear: both;
+    margin-top: 50px;
+}
+
+#s-student {
+    width: 160px;
+    height: 160px;
+    margin: 35px;
+    border: 5px solid white;
+    float: left;
+    margin-left: 140px;
+    box-shadow: 10px 8px 16px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+#succes-teacher {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0;
+}
+
+#teacher-succes-box {
+    width: 100%;
+    height: 270px;
+    float: left;
+    clear: both;
+    margin-top: 90px;
+}
+
+#s-teacher {
+    width: 160px;
+    height: 160px;
+    margin: 35px;
+    border: 5px solid white;
+    float: left;
+    box-shadow: 10px 8px 16px 3px rgba(0, 0, 0, 0.5);
+    margin-left: 140px;
+}
+
+/*---- footer Coding ----*/
+
+footer {
+    width: 100%;
+    height: 350px;
+    float: left;
+    background-image: url(../images/kidsbg.jpg);
+    float: left;
+    box-sizing: border-box;
+}
+
+#opacity_box2 {
+    width: 100%;
+    height: 350px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#footer-from-box {
+    width: 400px;
+    height: 330px;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    color: white;
+}
+
+h6 {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    font-size: 25px;
+    font-family: century gothic;
+}
+
+hr {
+    float: left;
+    clear: both;
+}
+
+form {
+    font-family: sans-serif;
+}
+
+input[type=text],
+[type=email],
+[type=tel] {
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: transparent;
+    border: 1.5px solid white;
+    margin-top: 3px;
+}
+
+input[type=submit] {
+    width: 80px;
+    padding: 5px;
+    height: 35px;
+    float: right;
+    background-color: rgb(236, 26, 26);
+    border: 3px solid white;
+    margin-top: 3px;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-right: -20px;
+}
+
+#btn-sub:hover {
+    transform: scale(1.2);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+input[type=text],
+[type=email],
+[type=tel],
+[type=submit]:focus {
+    outline: none;
+}
+
+#developer-box {
+    width: 800px;
+    height: 320px;
+    float: left;
+    position: relative;
+}
+
+#cont-box {
+    width: 500px;
+    height: 320px;
+    float: right;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+h2 {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 300px;
+}
+
+h6#co {
+    color: white;
+}
+
+#cont-add {
+    color: white;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+h6#f {
+    color: white;
+    margin-top: 55px;
+}
+
+#follow-icon {
+    box-sizing: border-box;
+    float: left;
+    clear: both;
+    width: 300px;
+    height: 70px;
+    margin-left: 70px;
+}
+
+#snp {
+    padding-left: 30px;
+}
+
+#snp:hover {
+    transform: scale(1.2);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
